@@ -8,7 +8,6 @@ Version: 1.0
 Author URI: https://pk-techie.blogspot.com/
 */ 
 
-error_reporting(E_ALL); 
 register_activation_hook( __FILE__, 'pkLm_plugin_activate' );
 function pkLm_plugin_activate(){
 
